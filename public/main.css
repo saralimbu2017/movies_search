@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image:linear-gradient(to right, rgba(255,0,0,0), rgb(240, 172, 172));
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0rem;
+  background-color: aliceblue;
+}
+nav a {
+  display: block;
+  width: 20%;
+  text-align: left;
+  text-decoration: none;
+  color: rgb(3, 1, 1);
+  border-right: 0.05rem solid pink;
+  padding: 0.25rem 1rem 0.25rem 2rem;
+  font-size: 1.25rem;
+}
+nav a:last-child {
+  border-right: 0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.movie_poster {
+  width: 15rem;
+}
+.wrapper img{
+  width: 100%;
+}
+.movie_description {
+  width: 50%;
+  padding-left: 2rem;
+}
+.movie_item {
+  width: 30%;
+  height: 10%;
+  /* background-color: rgb(204, 73, 139); */
+  padding: 2rem;
+}
+.movie_item a {
+  display: block;
+  text-decoration: none;
+  color: rgb(248, 239, 239);
+  font-size: 1rem;
+  border-bottom: 0.05rem solid rosybrown;
+  padding-bottom: 0.5rem;
+
+}
+.movie_item img {
+  height: 10rem;
+  width: 10rem;
+
+}
+.input-search {
+  height: 5%;
+  width: 50%;
+  padding: 20px 10px;
+  margin-top: 20%;
+  margin-left: 10%;
+  box-sizing: border-box;
+  border: 0.05rem solid rgb(199, 138, 138);
+  border-radius: 4px;
+}
+.btn-search {
+  height: 3%;
+  width: 20%;
+  padding: 10px 10px;
+  margin-top: 20%;
+  margin-left: 2%;
+  background-color: rgb(199, 138, 138); 
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+@media (max-width:30rem) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0rem;
+  }
+  nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(133, 39, 55);
+    background-color: aliceblue;
+    border-bottom: 0.15rem solid pink;
+    margin: 0 auto;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  .movie_item {
+    width: 51%;
+    margin-top: 2rem;
+    text-align: left;
+    padding: 0 0.15rem 0.7rem 0.15rem;
+   
+  }
+  
+  
+  .movie_item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+
+  .movie_poster {
+    width: 50%;
+   
+  }
+  .movie_description {
+    width: 80%;
+    padding-left: 0;
+  }
+  .input-search {
+    margin-top: 30%;
+  }
+  .btn-search {
+    margin-top: 30%;
+  }
+  /* input[type="text "] {
+
+   
+    line-height: 5rem;
+  } */
+}
+
+

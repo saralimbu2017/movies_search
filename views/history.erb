@@ -1,0 +1,6 @@
+
+<% file = File.open('history.txt','r') do |file| %>
+ <% file.each do |line| %>
+  <p> <%=  line%> </p>
+  <%end %>
+<%end %>

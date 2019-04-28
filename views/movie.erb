@@ -1,0 +1,15 @@
+<% @movie_title =  @movie["Title"] %>
+<% @movie_genre = @movie["Genre"]  %>
+<%  @movie_poster = @movie["Poster"]  %>
+<% @movie_year = @movie["Year"]%>
+   
+<div class="movie_poster">
+  <img src="<%= @movie_poster%>" alt="Movie Poster">
+</div>
+    
+<div class="movie_description">
+  <h3><%= @movie_title %></h3>
+  <p>Genre : <%= @movie_genre%></p>
+  <p>Released Year : <%= @movie_genre%></p>
+</div>
+</div>

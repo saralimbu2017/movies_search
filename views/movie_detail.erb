@@ -1,0 +1,11 @@
+<div class = "container">
+  <%   @movies_list.each do |item| %>
+  <div class = "movie_item" >
+    <% movie_name = item["Title"]%> 
+    <a href="/movie?movie_name=<%=movie_name%>" class="movie_item_attribute">
+    <img src="<%= item["Poster"]%>" class="movie_item_attribute">
+    <h3><%= movie_name%> </h3>
+    </a>
+  </div>
+  <%end%>
+</div>
