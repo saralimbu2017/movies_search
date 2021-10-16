@@ -21,8 +21,14 @@
     <a href="https://github.com/saralimbu2017/movies_search">
         <img src="https://user-images.githubusercontent.com/28947316/135781908-31492d97-ae04-4126-9a4d-1e41418223d0.jpg" alt="Logo" width="300px" height="200px" >
     </a>
-    <p>
-        A web application for searching movies.  Data for movies are based on third party API (OMDB API).  
+ </div>
+ 
+ <div>
+    <p text-align="justify">
+        The Movie DB project is a  Sinatra application to obtain movie information. OMDB API is used for  movie database in this project(http://www.omdbapi.com/). It is a RESTful web service to retrieve movie information.
+    </p>
+    <p text-align="justify">
+       This project has been built as a part of learning to  use external API. Sinatra follows the MVC framework to interact with, request data and render appropriate view in the application.
     </p>
 </div>
 
