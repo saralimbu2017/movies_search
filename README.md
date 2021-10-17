@@ -26,8 +26,7 @@
  <div>
     <p text-align="justify">
         The Movie DB project is a  Sinatra application to obtain movie information. OMDB API is used for  movie database in this project(http://www.omdbapi.com/). It is a RESTful web service to retrieve movie information.
-    </p>
-    <p text-align="justify">
+     </br>
        This project has been built as a part of learning to  use external API. Sinatra follows the MVC framework to interact with, request data and render appropriate view in the application.
     </p>
 </div>
@@ -87,8 +86,8 @@ List of things you need to use web application and how to install them.
     <p align="right">(<a href="#top">back to top</a>)</p>
     
     
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
